@@ -1,4 +1,4 @@
-const Rudh = require('../events');
+const faz = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
@@ -10,7 +10,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
 if (Config.WORKTYPE == 'public') {
     
-      Rudh.addCommand({pattern: 'ffpack', fromMe: false, desc: Ln,}, (async (message, match) => {
+      faz.addCommand({pattern: 'ffpack', fromMe: false, desc: Ln,}, (async (message, match) => {
 
     await message.client.sendMessage(
   
@@ -18,7 +18,7 @@ if (Config.WORKTYPE == 'public') {
   
   }));
  
- Rudh.addCommand({ pattern: 'ff02 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+ faz.addCommand({ pattern: 'ff02 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -28,7 +28,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
- Rudh.addCommand({ pattern: 'ff01 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+ faz.addCommand({ pattern: 'ff01 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -38,7 +38,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff03 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff03 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
@@ -48,7 +48,7 @@ if (Config.WORKTYPE == 'public') {
     
     }));
  
- Rudh.addCommand({ pattern: 'ff04 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+ faz.addCommand({ pattern: 'ff04 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -58,7 +58,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff05 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff05 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -68,7 +68,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff06 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff06 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -78,7 +78,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff07 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff07 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -88,7 +88,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff08 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff08 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -98,7 +98,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff09 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff09 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -108,7 +108,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff10 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff10 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -118,7 +118,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff11 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff11 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -128,7 +128,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff12 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff12 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -138,7 +138,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff13 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff13 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -148,7 +148,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff14 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff14 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -158,7 +158,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff15 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff15 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -168,7 +168,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff16 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff16 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -178,7 +178,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff17 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff17 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -188,7 +188,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff18 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff18 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -198,7 +198,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff19 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff19 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -208,7 +208,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff20 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff20 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -218,7 +218,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff21 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff21 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -228,7 +228,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff22 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff22 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -238,7 +238,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff23 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff23 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -248,7 +248,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff24 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff24 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -258,7 +258,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff25 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff25 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -268,7 +268,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff26 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff26 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -278,7 +278,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff27 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff27 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -288,7 +288,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-   Rudh.addCommand({ pattern: 'ff28 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff28 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -297,7 +297,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff29 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff29 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -306,7 +306,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff30 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff30 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -315,7 +315,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff31 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff31 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -324,7 +324,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff32 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff32 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -333,7 +333,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff33 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff33 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -342,7 +342,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff34 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff34 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -351,7 +351,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff35 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff35 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -360,7 +360,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff36 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff36 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -369,7 +369,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff37 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff37 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -378,7 +378,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff38 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff38 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -387,7 +387,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff39 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff39 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -396,7 +396,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff40 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff40 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -405,7 +405,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff41 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff41 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -414,7 +414,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff42 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff42 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -423,7 +423,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff43 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff43 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -432,7 +432,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff44 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff44 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -441,7 +441,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff45 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff45 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -450,7 +450,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff46 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff46 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -459,7 +459,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff47 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff47 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -468,7 +468,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff48 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff48 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -477,7 +477,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff49 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff49 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -486,7 +486,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
-   Rudh.addCommand({ pattern: 'ff50 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff50 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -495,7 +495,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.ALL})
 
     }));
- Rudh.addCommand({pattern: 'ffpack', fromMe: true, desc: Ln,}, (async (message, match) => {
+ faz.addCommand({pattern: 'ffpack', fromMe: true, desc: Ln,}, (async (message, match) => {
 
     await message.client.sendMessage(
   
@@ -503,7 +503,7 @@ if (Config.WORKTYPE == 'public') {
   
   }));
  
- Rudh.addCommand({ pattern: 'ff2 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+ faz.addCommand({ pattern: 'ff2 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -513,7 +513,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
- Rudh.addCommand({ pattern: 'ff1 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+ faz.addCommand({ pattern: 'ff1 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -523,7 +523,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
  
-  Rudh.addCommand({ pattern: 'ff3 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff3 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
@@ -533,7 +533,7 @@ if (Config.WORKTYPE == 'public') {
     
     }));
     
-    Rudh.addCommand({ pattern: 'ff4 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+    faz.addCommand({ pattern: 'ff4 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -545,7 +545,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff5 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff5 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -557,7 +557,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff6 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff6 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -569,7 +569,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff7 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff7 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -581,7 +581,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff8 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff8 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -593,7 +593,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff9 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff9 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -605,7 +605,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff10 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff10 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -617,7 +617,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff11 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff11 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -629,7 +629,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff12 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff12 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -641,7 +641,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff13 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff13 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -653,7 +653,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff14 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff14 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -665,7 +665,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff15 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff15 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -677,7 +677,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff16 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff16 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -689,7 +689,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff17 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff17 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -701,7 +701,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff18 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff18 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -713,7 +713,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff19 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff19 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -725,7 +725,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff20 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff20 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -737,7 +737,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff21 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff21 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -749,7 +749,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff22 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff22 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -761,7 +761,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff23 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff23 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -773,7 +773,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff24 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff24 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -785,7 +785,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff25 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff25 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -797,7 +797,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff26 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff26 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -809,7 +809,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Rudh.addCommand({ pattern: 'ff27 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  faz.addCommand({ pattern: 'ff27 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -821,7 +821,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-   Rudh.addCommand({ pattern: 'ff28 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff28 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -831,7 +831,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff29 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff29 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -841,7 +841,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff30 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff30 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -851,7 +851,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff31 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff31 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -861,7 +861,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff32 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff32 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -871,7 +871,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff33 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff33 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -881,7 +881,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff34 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff34 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -891,7 +891,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff35 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff35 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -901,7 +901,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff36 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff36 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -911,7 +911,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff37 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff37 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -921,7 +921,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff38 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff38 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -931,7 +931,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff39 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff39 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -941,7 +941,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff40 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff40 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -951,7 +951,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff41 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff41 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -961,7 +961,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff42 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff42 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -971,7 +971,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff43 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff43 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -981,7 +981,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff44 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff44 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -991,7 +991,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff45 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff45 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -1001,7 +1001,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff46 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff46 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -1011,7 +1011,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff47 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff47 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -1021,7 +1021,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff48 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff48 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -1031,7 +1031,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff49 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff49 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -1041,7 +1041,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-   Rudh.addCommand({ pattern: 'ff50 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   faz.addCommand({ pattern: 'ff50 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
