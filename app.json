@@ -3,9 +3,9 @@
     "description": "inrlbot is the Modified Version of WhatsAsena, Made By @fasweeh with Baileys.",
     "logo": "https://i.imgur.com/8c7F2iS.jpg",
     "keywords": ["whatsapp", "userbot", "Inrl", "WhatsAsena", "inrl", "bot", "ai"],
-    "repository": "https://github.com/fasweeh-faz/Inrl",
-    "website":   "https://github.com/fasweeh-faz/Inrl",
-    "success_url": "https://github.com/fasweeh-faz/Inrl",
+    "repository": "https://github.com/fasweeh-fazzz/faz",
+    "website":   "https://github.com/fasweeh-fazzz/faz",
+    "success_url": "https://github.com/fasweeh-fazzz/faz",
     "stack": "container",
     "env": {
         "INRL_SESSION": {
