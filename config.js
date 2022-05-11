@@ -63,7 +63,7 @@ module.exports = {
     OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'fasweeh' : process.env.OWNER_SHIP,
     LOGO: process.env.LOGO_LINK === undefined ? 'https://i.imgur.com/SoIxkUE.jpeg' : process.env.LOGO_LINK,
     BOTV2: process.env.BOTV2_NAME === undefined ? '⚡ɪɴʀʟʙᴏᴛ⚡' : process.env.BOTV2_NAME,
-    PIKACHU_AI: process.env.PIKACHU_AI === undefined ? 'false' : process.env.PIKACHU_AI,
+    INRL_AI: process.env.INRL_AI === undefined ? 'false' : process.env.INRL_AI,
     ALIVEBUTTON: process.env.ALIVEBUTTON === undefined ? 'ʜᴇʟʟᴏ ʙʀᴏ' : process.env.ALIVEBUTTON,
     ALIVE_BUTTON: process.env.ALIVE_BUTTON === undefined ? 'ʜɪ ᴅᴜᴅᴇ' : process.env.ALIVE_BUTTON,
     LG_LOGO: process.env.LG_LOGO === undefined ? 'https://telegra.ph/file/7524baa6ad51f38a69d63.jpg' : process.env.LG_LOGO,
