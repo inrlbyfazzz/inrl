@@ -79,8 +79,8 @@
             "required": true,
             "value": "false"
         },
-        "PIKACHU_AI": {
-            "description": "turn on chat back auto reply Pikachu (use true to on and fale to off)",
+        "INRL_AI": {
+            "description": "turn on chat back auto reply inrl (use true to on and fale to off)",
             "required": true,
             "value": "false"
         },
@@ -144,7 +144,7 @@
             "value": " ⚡ɪɴʀʟʙᴏᴛ⚡  \n\n   *ωнαтsαρρ вσт™*   \n"
         },
         "WORK_TYPE": {
-            "description": "Pikachu Working Type. If you use “public”, everyone can use the bot. Pikachu if you use “private”, only you can use your bot.",
+            "description": "inrlbot Working Type. If you use “public”, everyone can use the bot. Inrlbot if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
