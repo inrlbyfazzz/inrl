@@ -1,6 +1,6 @@
-/* Codded by @fasweeh
+/* Codded by @ fasweeh
 Instagram: www.instagram.com/mhd_fasweeh
-
+*/
 const Asena = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
