@@ -43,7 +43,7 @@ Project created by <a href="https://github.com/fasweeh-faz">fasweeh-faz</a> to m
   click to fork the git into your account
  Click [FORK](https://github.com/fasweeh-faz/Inrl/fork)
 
-5. Now https://heroku.com/deploy?template=https://github.com/fasweeh-faz/Inrl copy this url and change ameer-kallumthodi with your github username and click go<br>
+5. Now https://heroku.com/deploy?template=https://github.com/fasweeh-faz/Inrl copy this url and change fasweeh-fazzz with your github username and click go<br>
 
 ----
 
