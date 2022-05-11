@@ -54,18 +54,18 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
             var uri = encodeURI(match[1])
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '919946432377@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/p3r3.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        if (!!message.mention && message.mention[0] == '916235261803@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./media/media/fasweeh.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.MENTION) {
-await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/p3r3.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+await message.client.sendMessage(message.jid, fs.readFileSync('./media/media/fasweeh.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         
 const array = ['1','aara','Aarulle','adi','adima','Adipoli','alive','Aliya','Aliyo','alone','Althaf','Ameer','ano','ara','Araa','Ardra','ayilla','ayn','aysheri','Ayyo','baby','bad boy','Bad','Bgm','Bhasi','bie','big fan','Boss','bot','breakup','broken','brokenlove','Bye','care','Chathi','chatho','Chathy','Chetta','Chiri','Chunk','chunke','Chunks','Clg','comedy','cr7','Cristiano','Cry','da','Dai','dance','Di','die','don','Dora','Eda','Ee','Ellarum ede','enjoy','ennitt','enth','Entha cheyya','Entha','Enthada','Fan','Fasil','fd','Feel aayi','Fen','free','fresh','Frnd','funny','Gd mng','gd n8','Gd ngt','Gd','gdmng','good bye','group','Ha','Hbd','Hbday','He','Hello','help','Hi','Hlo','Hloo','Hoi','Hy','i am back','I love you','jd','kadhal','Kanapi','Kanjan','Kanjav','king','Kk','pikachu','bgm','chunks','ee','entha','love','mention','myre','njan','poda','rashmika','single','waiting','baby','Cr7','da','Dai','Di','Eda','Loveu','Mention','messi','Mm','moodesh','music','muthe','My love','myr','Myre','Name entha','Name','Nanbaa','Nanbiye','neymar','Neymer','Nishal','Njan','njn','Njr','Oh no','Oh','ok da','ok','patti','Penn','pewer','photo','Pikachu','Pm','Poli','power','Rashmika','Rashu','sad','Sarasu','sed','Set','Sho','Single','sis','Sry','Subscribe','Suhail','umma','venda','Waiting','wcm','welcome','why','alive','ayn']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./media/media/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
 }
 });
     }
@@ -87,18 +87,18 @@ if(pattern.test(message.message)){
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '919946432377@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/Ameer.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        if (!!message.mention && message.mention[0] == '916235261803@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./media/bgmone/fasweeh.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.MENTION) {
-await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/Ameer.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+await message.client.sendMessage(message.jid, fs.readFileSync('./media/bgmone/fasweeh.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         var uri = encodeURI(match[1])
 const array = ['1','aara','Aarulle','adi','adima','Adipoli','alive','Aliya','Aliyo','alone','Althaf','Ameer','ano','ara','Araa','Ardra','ayilla','ayn','aysheri','Ayyo','baby','bad boy','Bad','Bgm','Bhasi','bie','big fan','Boss','bot','breakup','broken','brokenlove','Bye','care','Chathi','chatho','Chathy','Chetta','Chiri','Chunk','chunke','Chunks','Clg','comedy','cr7','Cristiano','Cry','da','Dai','dance','Di','die','don','Dora','Eda','Ee','Ellarum ede','enjoy','ennitt','enth','Entha cheyya','Entha','Enthada','Fan','Fasil','fd','Feel aayi','Fen','free','fresh','Frnd','funny','Gd mng','gd n8','Gd ngt','Gd','gdmng','good bye','group','Ha','Hbd','Hbday','He','Hello','help','Hi','Hlo','Hloo','Hoi','Hy','i am back','I love you','jd','kadhal','Kanapi','Kanjan','Kanjav','king','Kk','pikachu','bgm','chunks','ee','entha','love','mention','myre','njan','poda','rashmika','single','waiting','baby','Cr7','da','Dai','Di','Eda','Loveu','Mention','messi','Mm','moodesh','music','muthe','My love','myr','Myre','Name entha','Name','Nanbaa','Nanbiye','neymar','Neymer','Nishal','Njan','njn','Njr','Oh no','Oh','ok da','ok','patti','Penn','pewer','photo','Pikachu','Pm','Poli','power','Rashmika','Rashu','sad','Sarasu','sed','Set','Sho','Single','sis','Sry','Subscribe','Suhail','umma','venda','Waiting','wcm','welcome','why','alive','ayn']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./media/bgmone/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
 }
 });
     }
@@ -119,8 +119,8 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if(Config.STICKERP){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '919946432377@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./media/stickers/p3r3.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
+    if (!!message.mention && message.mention[0] == '916235261803@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./media/stickers/Bot.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
 const array = ['myre','naanam','nadakkatte','nee alle','night','njan','number','Ok','oombi','ooo','paavam','Pattumo','pedicho','pever','pidi','pikachu','Pikachu','Pm','poda','Police','Poocha','Pova','powersh','powli','poyi','Rashmika','remove','sad','Save','saved','scene','Sed','setth','shaad','sheri','sho','Shoo','shut','Smile','song','Sry','STK-20210707-WA0605','tag','teach','test','thech','think','thund','Udayipp','uff','umma','uyir','Vaa','vada','Vannu','vibe','Vijay','yo','ys','z','uff','umma','aara','alla','Alone','ano','anthas','Ariyo','Ayin','Bie','bye','Cute','Di','eh','girls','Hoi','mama','Mm','Myr','Sed']
 array.map( async (a) => {
