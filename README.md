@@ -10,11 +10,11 @@
 <a href="#"><img title="Inrl" src="https://img.shields.io/badge/Inrl-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/fasweeh-faz"><img title="Author" src="https://i.imgur.com/8c7F2iS.jpg/Author-fasweeh-faz-0/Inrl?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/fasweeh-faz"><img title="Author" src="https://i.imgur.com/8c7F2iS.jpg/Author-fasweeh-fazzz-0/Inrl?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/fasweeh-faz">fasweeh-faz</a> to make it public
+Project created by <a href="https://github.com/fasweeh-fazzz">fasweeh-fazzz</a> to make it public
     <br>
        | © |
         Reserved |
@@ -28,7 +28,7 @@ Project created by <a href="https://github.com/fasweeh-faz">fasweeh-faz</a> to m
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@fasweehFqz/Inrl-QR)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fasweeh-faz/Inrl)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fasweeh-fazzz/faz)
      </div>
 
   ### If there is an error deploying, try the following steps
@@ -41,9 +41,9 @@ Project created by <a href="https://github.com/fasweeh-faz">fasweeh-faz</a> to m
 
 4. You will have to fork this git to deploy via Heroku.
   click to fork the git into your account
- Click [FORK](https://github.com/fasweeh-faz/Inrl/fork)
+ Click [FORK](https://github.com/fasweeh-fazzz/faz/fork)
 
-5. Now https://heroku.com/deploy?template=https://github.com/fasweeh-faz/Inrl copy this url and change fasweeh-fazzz with your github username and click go<br>
+5. Now https://heroku.com/deploy?template=https://github.com/fasweeh-fazzz/faz copy this url and change fasweeh-fazzz with your github username and click go<br>
 
 ----
 
