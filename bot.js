@@ -179,7 +179,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
      if (msg.messageStubType === 32 || msg.messageStubType === 28) {
         var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
         const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        var plk_here = new Date().toLocaleDateString(get_localized_date)
+        var plk_here = new Date().toLocaleDabteString(get_localized_date)
 	    var afn_plk_ = '```⏱ Time :' + plk_say + '```\n```📅 Date :' + plk_here + '```'
 
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
@@ -340,7 +340,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                             if (config.NOLOG == 'off') {
                                 
                                 await conn.sendMessage(conn.user.jid, '*~_________~ inrlbot ~______~*' +
-                                    '\n\n*😵 ' + error + '*\n\n```Report errors\njoin ⚠️Warning bot not allowed in the group\nhttps://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf``` ' 
+                                    '\n\n*😵 ' + error + '*\n\n```Report errors\njoin ⚠️Warning bot not allowed in the group\nhttps://chat.whatsapp.com/BsR6V1ltRUdK5zV5azILU5``` ' 
                                     , MessageType.text);
                             }
                         }
