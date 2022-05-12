@@ -5,12 +5,12 @@
  </a>
 </p>
 <div align="center">
-  <img border-radius: 15px src="P3R3R03.jpg" width="200" height="200"/>
+  <img border-radius: 15px src="https://i.imgur.com/DyLAuEh.jpg" width="150" height="150"/>
   <p align="center">
 <a href="#"><img title="Inrl" src="https://img.shields.io/badge/Inrl-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/fasweeh-faz"><img title="Author" src="https://i.imgur.com/DyLAuEh.jpg/Author-fasweeh-fazzz-0/Inrl?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/fasweeh-faz"><img title="Author" src="P3R3R03.jpg/Author-fasweeh-fazzz-0/Inrl?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
