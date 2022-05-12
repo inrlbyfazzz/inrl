@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
 
-re edited princerudh & Ameer Suhail
+WhatsAsena - Yusuf Usta
 */
 
 const { Sequelize } = require('sequelize');
@@ -39,11 +39,11 @@ module.exports = {
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
-    BOTNAME: process.env.BOT_NAME === undefined ? '  ⚡ɪɴʀʟʙᴏᴛ⚡  \n\n   *ωнαтsαρρ вσт™*   \n' : process.env.BOT_NAME,
+    BOTNAME: process.env.BOT_NAME === undefined ? '  ☚⃟፝༄𝖎𝖓𝖗𝖑𝖇𝖔𝖙☚⃟፝࿐  \n\n   *ωнαтsαρρ вσт™*   \n' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
-    SONGD: process.env.SONGD === undefined ? '✮⃝🎸ɪɴʀʟ ʙᴏᴛ ᴅᴏᴡɴʟᴏᴅɪɴɢ yᴏᴜʀ ꜱᴏɴɢ✮⃝🎧' : process.env.SONGD,
-    SONGU: process.env.SONGU === undefined ? '✮⃝🎸ɪɴʀʟ ʙᴏᴛ ᴜᴩʟᴏᴀᴅɪɴɢ yᴏᴜʀ ꜱᴏɴɢ✮⃝🎧' : process.env.SONGU,
+    SONGD: process.env.SONGD === undefined ? '✮⃝🎸𝖎𝖓𝖗𝖑𝖇𝖔𝖙 ÐØ₩₦ŁØÐł₦G ¥ØUƦ $Ø₦G✮⃝🎧' : process.env.SONGD,
+    SONGU: process.env.SONGU === undefined ? '✮⃝🎸𝖎𝖓𝖗𝖑𝖇𝖔𝖙 UPŁØλÐł₦G ¥ØUƦ $Ø₦G✮⃝🎧' : process.env.SONGU,
     FULLEVA: process.env.FULL_EVA === undefined ? 'false' : process.env.FULL_EVA,
     BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
@@ -60,14 +60,14 @@ module.exports = {
     TAGPLK: process.env.TAG_HEADER === undefined ? 'Note this' : process.env.TAG_HEADER,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     YAK: process.env.YAK === undefined ? '917025099161,0' : process.env.YAK,
-    OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'fasweeh' : process.env.OWNER_SHIP,
-    LOGO: process.env.LOGO_LINK === undefined ? 'https://i.imgur.com/SoIxkUE.jpeg' : process.env.LOGO_LINK,
-    BOTV2: process.env.BOTV2_NAME === undefined ? '⚡ɪɴʀʟʙᴏᴛ⚡' : process.env.BOTV2_NAME,
-    INRL_AI: process.env.INRL_AI === undefined ? 'false' : process.env.INRL_AI,
+    OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'ғᴀsᴡᴇᴇʜ' : process.env.OWNER_SHIP,
+    LOGO: process.env.LOGO_LINK === undefined ? 'https://i.imgur.com/8c7F2iS.jpg' : process.env.LOGO_LINK,
+    BOTV2: process.env.BOTV2_NAME === undefined ? '𝖎𝖓𝖗𝖑𝖇𝖔𝖙' : process.env.BOTV2_NAME,
+    RUDHRA_AI: process.env.RUDHRA_AI === undefined ? 'false' : process.env.RUDHRA_AI,
     ALIVEBUTTON: process.env.ALIVEBUTTON === undefined ? 'ʜᴇʟʟᴏ ʙʀᴏ' : process.env.ALIVEBUTTON,
     ALIVE_BUTTON: process.env.ALIVE_BUTTON === undefined ? 'ʜɪ ᴅᴜᴅᴇ' : process.env.ALIVE_BUTTON,
-    LG_LOGO: process.env.LG_LOGO === undefined ? 'https://telegra.ph/file/7524baa6ad51f38a69d63.jpg' : process.env.LG_LOGO,
-    LOGO_NAME: process.env.LOGO_NAME === undefined ? '⚡ɪɴʀʟʙᴏᴛ⚡' : process.env.LOGO_NAME,
+    LG_LOGO: process.env.LG_LOGO === undefined ? 'https://telegra.ph/file/29caac7b35ddf3a5c8410.jpg' : process.env.LG_LOGO,
+    LOGO_NAME: process.env.LOGO_NAME === undefined ? '☚⃟፝༄𝖎𝖓𝖗𝖑𝖇𝖔𝖙☚⃟፝࿐' : process.env.LOGO_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'true' : process.env.NO_LOG,
     NU: process.env.NUMBER === undefined ? false : process.env.NUMBER,
     BRANCH: 'master',
@@ -83,7 +83,7 @@ module.exports = {
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     DEBUG: DEBUG,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    SUPPORT: "919895809960-1634134075",
+    SUPPORT: "919895339960-1634134075",
     SUPPORT2: "919895809960-1617736751",
     SUPPORT3: "919895809960-1621015274"
 };
