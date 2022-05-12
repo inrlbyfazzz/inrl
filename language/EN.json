@@ -72,7 +72,7 @@
             "MUST_TEXT": "_Please reply to any message_"
         },
         "heroku": {
-            "RESTART_DESC": "Restarts the bot",
+            "RESTART_DESC": "Restarts the inrl",
             "RESTART_MSG": "_Restarting..._",
             "SHUTDOWN_DESC": "Shutdown Bot",
             "SHUTDOWN_MSG": "_Shutting down... ❌_",
@@ -149,7 +149,7 @@
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "_Leaving from the group..._",
+            "KICKME": "inrlbot ini varathilla😕..._",
             "PP_DESC": "Makes the profile photo what photo you reply.",
             "NEED_PHOTO": "_Reply to a photo_",
             "PPING": "_Setting profile photo..._",
@@ -184,17 +184,17 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* _.song xxxtentacion changes_",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n*Searching song...*\n",
-            "UPLOADING_SONG": "\n*Uploading 📲 Use 🎧*\n",
+            "DOWNLOADING_SONG": "inrlbot searching your song...*\n",
+            "UPLOADING_SONG": "inrlbot uploading you song🎧*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* _.video https://www.youtube.com/wa...._",
-            "DOWNLOADING_VIDEO": "_Downloading 🎥..._",
-            "UPLOADING_VIDEO": "_Uploading..._",
+            "DOWNLOADING_VIDEO": "inrlbot Downloading your video🎥..._",
+            "UPLOADING_VIDEO": "inrlbot Uploading your video..._",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "_Please write a few words!_",
             "GETTING_VIDEOS": "_I'm bringing videos..._",
             "NOT_FOUND": "*Thappinokeett kittiyilla ☹️*",
-            "SEARCHING": "*🔎 Searching...*",
+            "SEARCHING": "*inrlbot 🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
             "IMG": "_Searching image_ *{}* _number_ *{}*"
@@ -202,7 +202,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "_Reply to a photo or short video_",
-            "DOWNLOADING": "_Please wait..._"
+            "DOWNLOADING": "inrlbot creating sticker..._"
         },
         "system_stats": {
             "ALIVE_DESC": "Checks if the bot is working or not",
