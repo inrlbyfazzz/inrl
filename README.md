@@ -45,7 +45,7 @@ Project created by <a href="https://github.com/fasweeh-fazzz">fasweeh-fazzz</a> 
 
 5. Now https://heroku.com/deploy?template=https://github.com/fasweeh-fazzz/faz copy this url and change fasweeh-fazzz with your github username and click go<br>
 
-----
+---
 
 <h3 align="center">Contact Me:</h3>
 <p align="center">
