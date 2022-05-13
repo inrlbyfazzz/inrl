@@ -5,7 +5,7 @@
  </a>
 </p>
 <div align="center">
-  <img border-radius: 10px src="P3R3R03.jpg" width="150" height="150"/>
+  <img border-radius: 10px src="https://imgur.com/AelfUJg.jpg" width="150" height="150"/>
   <p align="center">
 <a href="#"><img title="Inrl" src="https://img.shields.io/badge/Inrl-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
