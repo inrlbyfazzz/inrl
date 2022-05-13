@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *INRL*:  ```" + msg + "```"
+    return "✅ *Inrl*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *INRL*:  ```" + msg + "```"
+    return "🛑 *Inrl*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *INRL*:  ```" + msg + "```"
+    return "⏺️ *Inrl*:  ```" + msg + "```"
 }
 
 
