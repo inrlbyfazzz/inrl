@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 farhan-dqz.
-re codded by afnan plk
-PINKY
+re codded by afnan plk &fasweeh 
+INRL
 */
 const fs = require('fs')
 const inrl = require('../events');
