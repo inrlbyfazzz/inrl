@@ -7,8 +7,8 @@ const inrl = require('../events');
 const {MessageType, Mimetype } = require('@adiwajshing/baileys');
 const FilterDb = require('./sql/filters');
 const Config = require('../config')
-const Faz = require('../faz')
-const afnp = Faz.PLKAFN !== false ? Faz.PLKAFN.split(',') : [];
+const faz = require('../faz')
+const afnp = faz.PLKAFN !== false ? faz.PLKAFN.split(',') : [];
 const jid = Config.DISBGM !== false ? Config.DISBGM.split(',') : [];
 const Language = require('../language');
 const Lang = Language.getString('filters');
@@ -220,7 +220,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
  
      inrl.addCommand({on: 'text', fromMe: false,onlyGroup: true}, (async (message, match) => {
 
-        if(Faz.afnp !== 'false'){
+        if(faz.afnp !== 'false'){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
         
