@@ -11,7 +11,7 @@ const {execFile} = require('child_process');
 const cwebp = require('cwebp-bin');
 const Config = require('../config');
 const axios = require('axios');
-const Spark = require('../spark');
+const Faz = require('../faz');
 
 const Language = require('../language');
 const Lang = Language.getString('unvoice'); // Language support
@@ -50,7 +50,7 @@ let id = match[1];
         .format('mp3')
         .save('output.mp3')
         .on('end', async () => {
-            var url = await axios.get(Spark.THUMBNAIL, { responseType: 'arraybuffer' })
+            var url = await axios.get(Faz.THUMBNAIL, { responseType: 'arraybuffer' })
 let options = {}
 options.ptt = true
 options.mimetype = Mimetype.mp4Audio
@@ -62,7 +62,7 @@ options.quoted = {
       },
       message: {
         documentMessage: {
-          title: Spark.VERIFY,
+          title: Faz.VERIFY,
           jpegThumbnail: Buffer.from(url.data)
         }
       }
@@ -175,7 +175,7 @@ let id = match[1];
         .format('mp3')
         .save('output.mp3')
         .on('end', async () => {
-            var url = await axios.get(Spark.THUMBNAIL, { responseType: 'arraybuffer' })
+            var url = await axios.get(Faz.THUMBNAIL, { responseType: 'arraybuffer' })
 let options = {}
 options.ptt = true
 options.mimetype = Mimetype.mp4Audio
@@ -187,7 +187,7 @@ options.quoted = {
       },
       message: {
         documentMessage: {
-          title: Spark.VERIFY,
+          title: Faz.VERIFY,
           jpegThumbnail: Buffer.from(url.data)
         }
       }
