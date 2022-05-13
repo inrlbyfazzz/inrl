@@ -1,8 +1,8 @@
 {
-  "name": "Inrl",
+  "name": "inrl",
   "version": "7.3.6",
   "description": "inrl is the Modified Version of WhatsAsena.",
-  "main": "./Inrl/bot.js",
+  "main": "./inrl/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
