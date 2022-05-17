@@ -1,6 +1,6 @@
-const faz = require('../../events');
+const faz = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
-const Config = require('../../config');
+const Config = require('../config');
 let wk = Config.WORKTYPE == 'public' ? false : true
 
 faz.addCommand({pattern: 'test ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
